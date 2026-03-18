@@ -11,7 +11,8 @@ def astar(grid, start, goal):
     fscore = {start: np.sqrt((start[0]-goal[0])**2 + (start[1]-goal[1])**2)}
     oheap = []
     heapq.heappush(oheap, (fscore[start], start))
- while oheap:
+ 
+    while oheap:
         current = heapq.heappop(oheap)[1]
         if current == goal:
             data = []
@@ -113,7 +114,7 @@ else:
     print(" Measures of Effectiveness\n")
     print("Path Found: Unsuccessful (Goal unreachable with current obstacle density)")
 
-plt.title(f"UGV Tactical Map - A* Pathfinding (70x70 Battlefield)")
+plt.title(f"UGV Tactical Pathfinding")
 plt.xlabel("X-Coordinate")
 plt.ylabel("Y-Coordinate")
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', frameon=True, shadow=True)
