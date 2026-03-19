@@ -3,7 +3,7 @@ UGV Tactical Path Planner
 
 This project implements a path planning system for an Unmanned Ground Vehicle (UGV) using the A* algorithm. The goal is to navigate a 70 x 70 grid while avoiding obstacles and finding the most efficient path from a start point to a goal point.
 
-About the Project
+About the Program
 --------------------------------------------------
 
 This program shows a battlefield environment where a UGV must travel from a given start location to the goal. The grid represents the terrain, and obstacles are randomly placed based on a selected density level.
