@@ -3,10 +3,10 @@ Dijkstra Path Finding
 
 This project is a implementation of Dijkstra’s Algorithm to find the shortest path between cities in India. The program takes a source and destination as input and calculates the minimum distance along with the route.
 
-About the Project
+About the Program
 --------------------------------------------------
 
-This project finds a pathfinding system where cities are treated as nodes and the distances between them as edges. Using Dijkstra’s algorithm, the program finds the shortest route between any two selected cities.
+This program finds a pathfinding system where cities are treated as nodes and the distances between them as edges. Using Dijkstra’s algorithm, the program finds the shortest route between any two selected cities.
 A predefined set of around 20 major Indian cities is used, and the distances between them are stored in a graph using an adjacency matrix.
 
 Features
